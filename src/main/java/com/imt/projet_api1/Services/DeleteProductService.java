@@ -1,10 +1,13 @@
 package com.imt.projet_api1.Services;
 
+
 import com.imt.projet_api1.model.Product;
 import org.springframework.stereotype.Service;
 
-public interface AddProductService {
+import java.util.Optional;
 
-    void execute(Product product);
 
+public interface DeleteProductService {
+    void deleteProductById(int id);
 }
+

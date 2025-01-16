@@ -6,6 +6,6 @@ services :
     container_name: demo_mongo
     restart: on-failure
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=mangoadmin
+      - MONGO_INITDB_ROOT_USERNAME=mongoadmin
       - MONGO_INITDB_ROOT_PASSWORD=password
     image: mongo
